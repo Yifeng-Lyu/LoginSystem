@@ -16,7 +16,7 @@ public class MainActivity extends BaseActivity {
         forceOffline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent("com.example.broadcastbestpractice.FORCE_OFFLINE");
+                Intent intent = new Intent("FORCE_OFFLINE");
                 sendBroadcast(intent);
             }
         });
